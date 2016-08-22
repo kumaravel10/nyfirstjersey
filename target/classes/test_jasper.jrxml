@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.1.1.final using JasperReports Library version 6.1.1  -->
+<!-- 2015-09-28T16:24:44 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="scriptlet" pageWidth="595" pageHeight="842" columnWidth="535" leftMargin="30" rightMargin="30" topMargin="30" bottomMargin="30" whenResourceMissingType="Empty" uuid="130cca8d-9eda-45f1-8671-40cf5a4459e9">
+	<property name="com.jasperassistant.designer.SnapToGrid" value="false"/>
+	<property name="com.jasperassistant.designer.Grid" value="false"/>
+	<property name="com.jasperassistant.designer.GridHeight" value="12"/>
+	<property name="com.jasperassistant.designer.GridWidth" value="12"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="country" class="java.lang.String">
+		<fieldDescription><![CDATA[country]]></fieldDescription>
+	</field>
+	<field name="occupation" class="java.lang.String">
+		<fieldDescription><![CDATA[occupation]]></fieldDescription>
+	</field>
+	<field name="name" class="java.lang.String">
+		<fieldDescription><![CDATA[name]]></fieldDescription>
+	</field>
+	<field name="place" class="java.lang.String">
+		<fieldDescription><![CDATA[place]]></fieldDescription>
+	</field>
+	<group name="dummy">
+		<groupExpression><![CDATA["dummy"]]></groupExpression>
+		<groupHeader>
+			<band height="23" splitType="Stretch">
+				<staticText>
+					<reportElement mode="Opaque" x="0" y="5" width="535" height="15" backcolor="#70A9A9" uuid="9c28bc49-9d8f-4feb-9f33-9cebaf7bbba8"/>
+					<box>
+						<bottomPen lineWidth="1.0" lineColor="#CCCCCC"/>
+					</box>
+					<textElement>
+						<paragraph lineSpacing="Single" lineSpacingSize="1.0" firstLineIndent="0" leftIndent="0" rightIndent="0" spacingBefore="0" spacingAfter="0" tabStopWidth="40"/>
+					</textElement>
+					<text><![CDATA[]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="136" y="5" width="150" height="15" uuid="d30275d0-913d-4f34-9c26-91893fff7cec"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font isBold="true"/>
+						<paragraph lineSpacing="Single" lineSpacingSize="1.0" firstLineIndent="0" leftIndent="0" rightIndent="0" spacingBefore="0" spacingAfter="0" tabStopWidth="40"/>
+					</textElement>
+					<text><![CDATA[Occupation]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="286" y="5" width="128" height="15" uuid="c220697d-1629-4b42-8fe0-e9fd437601e3"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<paragraph lineSpacing="Single" lineSpacingSize="1.0" firstLineIndent="0" leftIndent="0" rightIndent="0" spacingBefore="0" spacingAfter="0" tabStopWidth="40"/>
+					</textElement>
+					<text><![CDATA[Place]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="414" y="5" width="121" height="15" uuid="11c6d632-24db-4249-a02d-d5eefbeff494"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font isBold="true"/>
+						<paragraph lineSpacing="Single" lineSpacingSize="1.0" firstLineIndent="0" leftIndent="0" rightIndent="0" spacingBefore="0" spacingAfter="0" tabStopWidth="40"/>
+					</textElement>
+					<text><![CDATA[Country]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="5" width="136" height="15" uuid="f49ecb78-365f-4bb1-8694-ff1d2431f195"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font isBold="true"/>
+						<paragraph lineSpacing="Single" lineSpacingSize="1.0" firstLineIndent="0" leftIndent="0" rightIndent="0" spacingBefore="0" spacingAfter="0" tabStopWidth="40"/>
+					</textElement>
+					<text><![CDATA[Name]]></text>
+				</staticText>
+			</band>
+		</groupHeader>
+	</group>
+	<detail>
+		<band height="18" splitType="Stretch">
+			<staticText>
+				<reportElement mode="Opaque" x="0" y="0" width="535" height="14" backcolor="#E5ECF9" uuid="e00eb661-6169-4f5f-978a-60a50977fbe0"/>
+				<box>
+					<bottomPen lineWidth="0.25" lineColor="#CCCCCC"/>
+				</box>
+				<textElement>
+					<paragraph lineSpacing="Single" lineSpacingSize="1.0" firstLineIndent="0" leftIndent="0" rightIndent="0" spacingBefore="0" spacingAfter="0" tabStopWidth="40"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="136" y="0" width="150" height="15" uuid="23d34404-0af1-4f11-a1d8-4e65f3c1e4f4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<paragraph lineSpacing="Single" lineSpacingSize="1.0" firstLineIndent="0" leftIndent="0" rightIndent="0" spacingBefore="0" spacingAfter="0" tabStopWidth="40"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{occupation}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="286" y="0" width="128" height="16" uuid="87ad27e2-9832-4481-9f01-debbb91b4e4e"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<paragraph lineSpacing="Single" lineSpacingSize="1.0" firstLineIndent="0" leftIndent="0" rightIndent="0" spacingBefore="0" spacingAfter="0" tabStopWidth="40"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{place}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="414" y="0" width="121" height="16" uuid="1463746e-3714-4c6c-ab0b-d8e97d6896ab"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="9"/>
+					<paragraph lineSpacing="Single" lineSpacingSize="1.0" firstLineIndent="0" leftIndent="0" rightIndent="0" spacingBefore="0" spacingAfter="0" tabStopWidth="40"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{country}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="0" width="136" height="15" uuid="99140907-7e16-494d-8e6a-ef6d40bbd240"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<paragraph lineSpacing="Single" lineSpacingSize="1.0" firstLineIndent="0" leftIndent="0" rightIndent="0" spacingBefore="0" spacingAfter="0" tabStopWidth="40"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{name}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

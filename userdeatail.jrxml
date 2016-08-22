@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.1.1.final using JasperReports Library version 6.1.1  -->
+<!-- 2015-09-29T11:56:48 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Myuserreport" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="4d2a261c-410e-498e-a063-14fe4bb9efb8">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="New Data Adapter "/>
+	<style name="table">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<subDataset name="New Dataset 1" uuid="8ca81d12-3979-4d14-b3fe-6744406a50d0">
+		<queryString language="SQL">
+			<![CDATA[select * from user]]>
+		</queryString>
+		<field name="ID" class="java.lang.Integer">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="USERNAME" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="PASSWORD1" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="EMAIL" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="PHONE" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="CITY" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="employeetype" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="empId" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+	</subDataset>
+	<queryString>
+		<![CDATA[select * from user]]>
+	</queryString>
+	<field name="ID" class="java.lang.Integer">
+		<fieldDescription><![CDATA[ID]]></fieldDescription>
+	</field>
+	<field name="USERNAME" class="java.lang.String">
+		<fieldDescription><![CDATA[USERNAME]]></fieldDescription>
+	</field>
+	<field name="PASSWORD1" class="java.lang.String">
+		<fieldDescription><![CDATA[PASSWORD1]]></fieldDescription>
+	</field>
+	<field name="EMAIL" class="java.lang.String">
+		<fieldDescription><![CDATA[EMAIL]]></fieldDescription>
+	</field>
+	<field name="PHONE" class="java.lang.String">
+		<fieldDescription><![CDATA[PHONE]]></fieldDescription>
+	</field>
+	<field name="CITY" class="java.lang.String">
+		<fieldDescription><![CDATA[CITY]]></fieldDescription>
+	</field>
+	<field name="employeetype" class="java.lang.String">
+		<fieldDescription><![CDATA[employeetype]]></fieldDescription>
+	</field>
+	<field name="empId" class="java.lang.String">
+		<fieldDescription><![CDATA[empId]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="60" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="49" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="25" width="55" height="20" uuid="165066c9-aa51-4d56-879c-77f0b11272bc"/>
+				<text><![CDATA[ID]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="67" y="25" width="51" height="20" uuid="afce9b7b-2adf-44e6-92dd-371ab64c344a"/>
+				<text><![CDATA[Username]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="132" y="25" width="54" height="20" uuid="5e76991a-784d-423b-aade-3578a8e0db13"/>
+				<text><![CDATA[Password]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="202" y="25" width="51" height="20" uuid="e1b08d77-2ca4-4f66-9699-6ffae48d5cd2"/>
+				<text><![CDATA[Email]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="268" y="25" width="42" height="20" uuid="99183432-0bf2-4001-a793-ea249c32fbb4"/>
+				<text><![CDATA[Phone]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="327" y="25" width="49" height="20" uuid="9e51f406-9256-47e9-8977-0bad85800ed2"/>
+				<text><![CDATA[City]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="391" y="25" width="57" height="20" uuid="56569166-42f8-45de-a6cf-1a36c293f249"/>
+				<text><![CDATA[EmployeeTye]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="460" y="25" width="51" height="20" uuid="43a845a2-2423-47cf-82c9-b1259f2ec8af"/>
+				<text><![CDATA[EmpID]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="205" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="0" width="55" height="20" uuid="ccaba350-a4d2-44e5-b522-790371ed7f73"/>
+				<textFieldExpression><![CDATA[$F{ID}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="67" y="0" width="51" height="20" uuid="bfe265d9-4e53-462e-9343-5d45abc411b0"/>
+				<textFieldExpression><![CDATA[$F{USERNAME}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="132" y="0" width="54" height="20" uuid="e943a12a-a56e-41b4-aabc-d2b4dc402970"/>
+				<textFieldExpression><![CDATA[$F{PASSWORD1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="202" y="0" width="51" height="20" uuid="dffe1bd4-0d1f-4957-950b-9f7e665b7ce4"/>
+				<textFieldExpression><![CDATA[$F{EMAIL}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="268" y="0" width="42" height="20" uuid="9f7c62cb-ec24-46ea-b46b-a1bf666a467f"/>
+				<textFieldExpression><![CDATA[$F{PHONE}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="327" y="0" width="49" height="20" uuid="da8683c2-9872-404a-893c-7b7a1cee9357"/>
+				<textFieldExpression><![CDATA[$F{CITY}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="391" y="0" width="57" height="20" uuid="c653b7dc-8ac7-4d0b-8ecc-ac197cb8e25b"/>
+				<textFieldExpression><![CDATA[$F{employeetype}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="460" y="0" width="51" height="20" uuid="71303892-a61e-4e9e-a05c-93e2db6ef53f"/>
+				<textFieldExpression><![CDATA[$F{empId}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
